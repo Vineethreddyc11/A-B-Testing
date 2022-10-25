@@ -21,11 +21,17 @@ At the time of this experiment, Udacity courses currently have two options on th
 
 - For users who will devote 5 or more hours per week. It’s the same as usual.
 - For users who will devote Less than 5 hours per week, Udacity will suggest the users choose “access course materials”
+![Screen Shot 2022-10-25 at 12 01 58 PM](https://user-images.githubusercontent.com/68578215/197859951-b8251e97-fce0-49b6-a9eb-2e1f3e311110.png)
 
 **Unit of diversion:** cookies
 - If the student enrolls in the free trial, they are tracked by user-id from that point forward. **The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page**.
 
 ### The Process of Users’ Behaviors
+
+![Screen Shot 2022-10-25 at 12 02 15 PM](https://user-images.githubusercontent.com/68578215/197860035-b479505c-898b-4ced-8fd2-95d9b3b0cb78.png)
+![Screen Shot 2022-10-25 at 12 02 22 PM](https://user-images.githubusercontent.com/68578215/197860105-3302b0bd-121d-4ee6-b4fd-95d4e6c9f450.png)
+![Screen Shot 2022-10-25 at 12 02 28 PM](https://user-images.githubusercontent.com/68578215/197860116-63e148ea-a02b-4d99-9099-0dc580525586.png)
+
 
 - 1 - Visit Udacity website
 - 2 - Open course page (cookies or called pageviews)
