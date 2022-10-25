@@ -70,7 +70,7 @@ Any place “unique cookies” are mentioned, the uniqueness is determined by da
 The good invariant metrics are the metrics before the **Experiment Change** happens in **The Process of Users’ Behaviors**, and the invariant metrics should not changed by any reason including your **Experiment Change**. In this experiment, the **Experiment Change** locates in the step while the users are clicking on “start free trial”.
 
 | Metric Name | Metric Formula    | d min                | Notation | Python Notation   | Reason               |
-| :-------- | :------- | :------------------------- || :-------- | :------- | :------------------------- |
+| :-------- | :------- | :------------------------- | :-------- | :------- | :------------------------- |
 | Number of cookies | #number of unique cookies to view the course overview page | 3000 cookies || Ccookies | cookies | Population sizing metric|
 | Number of clicks | #number of unique cookies to click the “Start free trial” button | 240 clicks || Cclicks | clicks | Population sizing metric|
 | Click-through-probability | Cclicks/Ccookies  | 0.01 || CTP | CTP | Population sizing metric|
