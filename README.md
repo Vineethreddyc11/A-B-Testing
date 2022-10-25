@@ -71,9 +71,9 @@ The good invariant metrics are the metrics before the **Experiment Change** happ
 
 | Metric Name | Metric Formula    | d min                | Notation | Python Notation   | Reason               |
 | :-------- | :------- | :------------------------- | :-------- | :------- | :------------------------- |
-| Number of cookies | #number of unique cookies to view the course overview page | 3000 cookies || Ccookies | cookies | Population sizing metric|
-| Number of clicks | #number of unique cookies to click the “Start free trial” button | 240 clicks || Cclicks | clicks | Population sizing metric|
-| Click-through-probability | Cclicks/Ccookies  | 0.01 || CTP | CTP | Population sizing metric|
+| Number of cookies | #number of unique cookies to view the course overview page | 3000 cookies | Ccookies | cookies | Population sizing metric|
+| Number of clicks | #number of unique cookies to click the “Start free trial” button | 240 clicks | Cclicks | clicks | Population sizing metric|
+| Click-through-probability | Cclicks/Ccookies  | 0.01 | CTP | CTP | Population sizing metric|
 
 - Number of cookies is our population metric. Additionally, the Experiment change happening before the cookies are recorded. Therefore, Number of cookies is an invariant metric.
 - Number of clicks, which are recorded before the Experiment change occurred.
@@ -85,10 +85,10 @@ Why cannot choose Number of user-ids
 Evaluation metrics are used to measure the quality of the statistical or machine learning model. It is very important to use multiple evaluation metrics to evaluate your model. This is because a model may perform well using one measurement from one evaluation metric, but may perform poorly using another measurement from another evaluation metric. Using evaluation metrics are critical in ensuring that your model is operating correctly and optimally.
 
 | Metric Name | Metric Formula    | d min                | Notation | Python Notation   | Reason               |
-| :-------- | :------- | :------------------------- || :-------- | :------- | :------------------------- |
+| :-------- | :------- | :------------------------- | :-------- | :------- | :------------------------- |
 | Gross conversion | Cenrollments/Cclicks | 0.01 || Gross conversion | gross_conversion | The performance of a model|
-| Retention | Cpayments/Cenrollments | 0.01 || Retention | retention | The performance of a model|
-| Net conversion | Cpayments/Cclicks  | 0.0075 || Net conversion | net_conversion | The performance of a model|
+| Retention | Cpayments/Cenrollments | 0.01 | Retention | retention | The performance of a model|
+| Net conversion | Cpayments/Cclicks  | 0.0075 | Net conversion | net_conversion | The performance of a model|
 
 
 ### Calculating Standard Error
